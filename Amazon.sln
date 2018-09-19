@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2016
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatrixRotation", "MatrixRotation\MatrixRotation.csproj", "{5B3CCF31-401D-4FD7-AA3C-70C0D98750B0}"
 EndProject
@@ -80,6 +80,12 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sorting", "Sorting", "{4B29FD8D-9153-4295-86AC-62C711D0BC78}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreeArrayProblem", "ThreeArrayProblem\ThreeArrayProblem.csproj", "{11D0928D-B324-42DE-A435-45AE42EB45D1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Card", "Card", "{3527F723-AF1C-4BF0-9823-5D233D8ABC96}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShuffleCard", "ShuffleCard\ShuffleCard.csproj", "{0915961B-3D12-452A-9827-A81A8F8CD091}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeightOfTree", "HeightOfTree\HeightOfTree.csproj", "{22DD1C1E-A93A-4E1D-B80A-170F84C2941D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -203,6 +209,14 @@ Global
 		{11D0928D-B324-42DE-A435-45AE42EB45D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11D0928D-B324-42DE-A435-45AE42EB45D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11D0928D-B324-42DE-A435-45AE42EB45D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0915961B-3D12-452A-9827-A81A8F8CD091}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0915961B-3D12-452A-9827-A81A8F8CD091}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0915961B-3D12-452A-9827-A81A8F8CD091}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0915961B-3D12-452A-9827-A81A8F8CD091}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22DD1C1E-A93A-4E1D-B80A-170F84C2941D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22DD1C1E-A93A-4E1D-B80A-170F84C2941D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22DD1C1E-A93A-4E1D-B80A-170F84C2941D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22DD1C1E-A93A-4E1D-B80A-170F84C2941D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -237,5 +251,10 @@ Global
 		{00A09B72-7200-46DA-A568-B68EBFB4AA5E} = {5392A129-0F8D-4DC6-9304-0631E242DD9E}
 		{D3B86D0A-72FB-4606-AB0A-917CC5AF3C3E} = {5392A129-0F8D-4DC6-9304-0631E242DD9E}
 		{11D0928D-B324-42DE-A435-45AE42EB45D1} = {4B29FD8D-9153-4295-86AC-62C711D0BC78}
+		{0915961B-3D12-452A-9827-A81A8F8CD091} = {3527F723-AF1C-4BF0-9823-5D233D8ABC96}
+		{22DD1C1E-A93A-4E1D-B80A-170F84C2941D} = {5392A129-0F8D-4DC6-9304-0631E242DD9E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9B9F393E-D629-4E13-96EA-F99881AD98CF}
 	EndGlobalSection
 EndGlobal
